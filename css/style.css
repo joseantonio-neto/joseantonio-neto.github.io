@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import 'nord.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--nord0);
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-color-nord0 {
+    background-color: var(--nord0) !important;
+}
+
+.bg-color-nord1 {
+    background-color: var(--nord1) !important;
+}
+
+.bg-color-nord2 {
+    background-color: var(--nord2) !important;
+}
+
+.bg-color-nord3 {
+    background-color: var(--nord3) !important;
+}
+
+.bg-color-nord4 {
+    background-color: var(--nord4) !important;
+}
+
+.bg-color-nord5 {
+    background-color: var(--nord5) !important;
+}
+
+.bg-color-nord6 {
+    background-color: var(--nord6) !important;
+}
+
+.bg-color-nord7 {
+    background-color: var(--nord7) !important;
+}
+
+.bg-color-nord8 {
+    background-color: var(--nord8) !important;
+}
+
+.bg-color-nord9 {
+    background-color: var(--nord9) !important;
+}
+
+.bg-color-nord10 {
+    background-color: var(--nord10) !important;
+}
+
+.bg-color-nord11 {
+    background-color: var(--nord11) !important;
+}
+
+.bg-color-nord12 {
+    background-color: var(--nord12) !important;
+}
+
+.bg-color-nord13 {
+    background-color: var(--nord13) !important;
+}
+
+.bg-color-nord14 {
+    background-color: var(--nord14) !important;
+}
+
+.bg-color-nord15 {
+    background-color: var(--nord15) !important;
+}
+
+.text-color-nord0 {
+    color: var(--nord0) !important;
+}
+
+.text-color-nord1 {
+    color: var(--nord1) !important;
+}
+
+.text-color-nord2 {
+    color: var(--nord2) !important;
+}
+
+.text-color-nord3 {
+    color: var(--nord3) !important;
+}
+
+.text-color-nord4 {
+    color: var(--nord4) !important;
+}
+
+.text-color-nord5 {
+    color: var(--nord5) !important;
+}
+
+.text-color-nord6 {
+    color: var(--nord6) !important;
+}
+
+.text-color-nord7 {
+    color: var(--nord7) !important;
+}
+
+.text-color-nord8 {
+    color: var(--nord8) !important;
+}
+
+.text-color-nord9 {
+    color: var(--nord9) !important;
+}
+
+.text-color-nord10 {
+    color: var(--nord10) !important;
+}
+
+.text-color-nord11 {
+    color: var(--nord11) !important;
+}
+
+.text-color-nord12 {
+    color: var(--nord12) !important;
+}
+
+.text-color-nord13 {
+    color: var(--nord13) !important;
+}
+
+.text-color-nord14 {
+    color: var(--nord14) !important;
+}
+
+.text-color-nord15 {
+    color: var(--nord15) !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main {
+        box-shadow: 0px 0px 30px var(--nord14);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main {
+        box-shadow: 0px 0px 30px var(--nord13);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .main {
+        box-shadow: 0px 0px 30px var(--nord12);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main {
+        box-shadow: 0px 0px 30px var(--nord11);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main {
+        box-shadow: 0px 0px 30px var(--nord15);
+    }
+}
